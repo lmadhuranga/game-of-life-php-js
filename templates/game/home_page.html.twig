@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+    {#<script src="js/lib/jquery.js"></script>#}
+    <script src="js/games-config.js"></script>
+    <script src="js/game-display.js"></script>
+    <script src="js/cell.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Conway's Game of Life</a>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Wikipedia</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <h2 id="title">Example 1 - Super Simple Glider</h2><br>
+
+    </div>
+    <div class="row">
+
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+
+                    <canvas id="life" class="life-game">
+                        Please view this in a modern browser such as Google Chrome, Firefox, or Safari.
+                    </canvas>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <h1 class="display-4">Game of Life</h1>
+                    <p class="lead">The Game of Life, also known simply as Life, is a cellular automaton devised by the
+                        British mathematician
+                        <mark>John Horton Conway</mark>
+                        in 1970.[1]¬
+                    </p>
+                    <p class="h5">Rules</p>
+                    <ol>
+                        <li class="small">Any live cell with fewer than two live neighbours dies, as if caused by
+                            underpopulation.
+                        </li>
+                        <li class="small">Any live cell with two or three live neighbours lives on to the next
+                            generation.
+                        </li>
+                        <li class="small">Any live cell with more than three live neighbours dies, as if by
+                            overpopulation.
+                        </li>
+                        <li class="small">Any dead cell with exactly three live neighbours becomes a live cell, as if by
+                            reproduction.
+                        </li>
+                    </ol>
+
+                    <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">More</a>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="img/auto.gif" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#" data-modal-btn="false" data-game-color="false" data-game-type="auto" class="game-select-btn">Auto
+                                    Configure Game</a>
+                            </h4>
+                            <h5>Randomly create the grid of initial game plaform</h5>
+
+                            <!-- Secondary, outline button -->
+                            <button type="button" data-modal-btn="false" data-game-color="false" data-game-type="auto"
+                                    class="game-select-btn btn btn-secondary">Run Game
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="img/gosperGliderGun-black.gif" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#" data-modal-btn="false" data-game-color="false" data-game-type="gosperGliderGun"
+                                   class="game-select-btn">Super Simple Glider - Black</a>
+                            </h4>
+                            <h5>We configure the initial generation for you</h5>
+                            <button type="button" data-modal-btn="false" data-game-color="false" data-game-type="gosperGliderGun"
+                                    class="game-select-btn btn btn-secondary">Run Game
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="img/gosperGliderGun-color.gif" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="#" data-modal-btn="false" data-game-color="true" data-game-type="gosperGliderGun"
+                                   class="game-select-btn">Super Simple Glider - Color</a>
+                            </h4>
+                            <h5>You can add colors to game</h5>
+                            <button type="button" data-modal-btn="false" data-game-color="true" data-game-type="gosperGliderGun"
+                                    class="game-select-btn btn btn-secondary">Run Game
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<!-- The Modal -->
+<div class="modal fade bd-example-modal-lg" id="gameSelectorModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h3 class="modal-title">Welcome to Game of Life</h3>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h5>Please Select Game</h5>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card h-100">
+                            <a href="#"><img class="card-img-top" src="img/auto.gif" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="#" data-modal-btn="true" data-game-color="false" data-game-type="auto" class="game-select-btn">Auto
+                                        Configure Game</a>
+                                </h4>
+                                <h5>Randomly create the grid of initial game plaform</h5>
+
+                                <!-- Secondary, outline button -->
+                                <button type="button" data-modal-btn="true" data-game-color="false" data-game-type="auto"
+                                        class="game-select-btn btn btn-secondary">Run Game
+                                </button>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card h-100">
+                            <a href="#"><img class="card-img-top" src="img/gosperGliderGun-black.gif" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="#" data-modal-btn="true" data-game-color="false" data-game-type="gosperGliderGun"
+                                       class="game-select-btn">Super Simple Glider - Black</a>
+                                </h4>
+                                <h5>We configure the initial generation for you</h5>
+                                <button type="button" data-modal-btn="true" data-game-color="false" data-game-type="gosperGliderGun"
+                                        class="game-select-btn btn btn-secondary">Run Game
+                                </button>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- row-->
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Madhuranga Senadheera 2018</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+</body>
+</html>

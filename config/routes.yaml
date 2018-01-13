@@ -1,0 +1,8 @@
+index:
+    path: /
+    defaults: { _controller: App\Controller\GameController::index }
+
+
+game_calc:
+    path: /game/calc
+    controller: App\Controller\GameController::getNextGen
