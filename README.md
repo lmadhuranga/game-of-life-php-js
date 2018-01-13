@@ -1,10 +1,9 @@
 # Game of life 
-
-The Game of Life, also known simply as Life, is a board game originally created in 1860 by Milton Bradley, as The Checkered Game of Life. The Game of Life was America's first popular parlour game.[1] The game simulates a person's travels through his or her life, from college to retirement, with jobs, marriage, and possible children (4) along the way. Two to six players can participate in one game. Variations of the game accommodate eight to ten players.
  
 ![Gosper Glider Gun - Black'](https://raw.githubusercontent.com/lmadhuranga/game-of-life-php-js/master/public/img/gosperGliderGun-black.gif)
- 
-![Gosper Glider Gun - Color](https://raw.githubusercontent.com/lmadhuranga/game-of-life-php-js/master/public/img/gosperGliderGun-color.gif)
+
+The Game of Life, also known simply as Life, is a board game originally created in 1860 by Milton Bradley, as The Checkered Game of Life. The Game of Life was America's first popular parlour game.[1] The game simulates a person's travels through his or her life, from college to retirement, with jobs, marriage, and possible children (4) along the way. Two to six players can participate in one game. Variations of the game accommodate eight to ten players.
+
 
 ## Getting Started
 
@@ -61,7 +60,7 @@ A step by step series of examples that tell you have to get a development env ru
  
 ## Authors
 
-* **Madhuranga Senadheera** - [PurpleBooth](https://github.com/lmadhuranga)
+* **Madhuranga Senadheera** - [lmadhuranga](https://github.com/lmadhuranga)
 
 ## License
 
