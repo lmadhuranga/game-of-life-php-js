@@ -2,7 +2,18 @@
  
 ![Gosper Glider Gun - Black'](https://raw.githubusercontent.com/lmadhuranga/game-of-life-php-js/master/public/img/gosperGliderGun-black.gif)
 
+### Introduction of game
+
 The Game of Life, also known simply as Life, is a board game originally created in 1860 by Milton Bradley, as The Checkered Game of Life. The Game of Life was America's first popular parlour game.[1] The game simulates a person's travels through his or her life, from college to retirement, with jobs, marriage, and possible children (4) along the way. Two to six players can participate in one game. Variations of the game accommodate eight to ten players.
+
+### Rules of game
+
+The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or "populated" or "unpopulated". Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
+
+ * Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
+ * Any live cell with two or three live neighbours lives on to the next generation.
+ * Any live cell with more than three live neighbours dies, as if by overpopulation.
+ * Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 
 ## Getting Started
@@ -13,9 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-
-1. Install the compoesr  
-    https://getcomposer.org/download/
+1. Install the compoesr -> https://getcomposer.org/download/
     
 2. Install the lamp or wamp or mamp
 mamp download -> https://www.mamp.info/
