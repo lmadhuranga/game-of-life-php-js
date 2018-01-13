@@ -1,6 +1,6 @@
 # Game of life 
  
-![Gosper Glider Gun - Black'](https://raw.githubusercontent.com/lmadhuranga/game-of-life-php-js/master/public/img/gosperGliderGun-black.gif)
+![Gosper Glider Gun](https://github.com/lmadhuranga/game-of-life-php-js/blob/master/public/img/cropedimg.gif?raw=true)
 
 ### Introduction of game
 
