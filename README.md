@@ -35,20 +35,20 @@ A step by step series of examples that tell you have to get a development env ru
 
 1. Go to htdocs folder in dev enviroment 
 
-2. Copty to git clone local folder
+2. Copy to git clone local folder
   ```
     git clone https://github.com/lmadhuranga/game-of-life-php-js
   ```
-3. go to project 
+3. Go to project 
   ```
     cd game-of-life-php-js
   ```
-4. install the composer packages
+4. Install the composer packages
 
   ```
     composer install
   ```
-5. browse the game page with url
+5. Browse the game page with url
   ```
     http://localhost/game-of-life-php-js/public
   ```
