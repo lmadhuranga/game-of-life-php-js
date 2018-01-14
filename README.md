@@ -24,10 +24,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-1. Install the compoesr -> https://getcomposer.org/download/
+1. Install the [Compoesr](https://getcomposer.org/download/)
     
-2. Install the lamp or wamp or mamp
-mamp download -> https://www.mamp.info/
+2. Install the lamp or wamp or [mamp](https://www.mamp.info/)
  
 
 ### Installing
@@ -36,7 +35,7 @@ A step by step series of examples that tell you have to get a development env ru
 
 1. Go to htdocs folder in dev enviroment 
 
-2. git clone the project
+2. Copty to git clone local folder
   ```
     git clone https://github.com/lmadhuranga/game-of-life-php-js
   ```
