@@ -50,7 +50,7 @@ A step by step series of examples that tell you have to get a development env ru
   ```
 5. browse the game page with url
   ```
-    http://localhost/game-of-life-php-js
+    http://localhost/game-of-life-php-js/public
   ```
   
 ## Running the tests
